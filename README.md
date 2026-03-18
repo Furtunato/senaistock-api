@@ -62,8 +62,7 @@ O projeto foi desenvolvido utilizando **Scrum**, dividido em 6 Sprints, contempl
 Ferramentas utilizadas:
 
 * Trello (gestão das Sprints)
-Link: https://trello.com/invite/b/699f268b07de738132c049e8/ATTI29d0a4c4c35580343d8fadd226
-90eaa70C116F6A/controle-de-estoque-de-livros-didaticos-metodologia-scrum 
+Link: https://trello.com/invite/b/699f268b07de738132c049e8/ATTI29d0a4c4c35580343d8fadd22690eaa70C116F6A/controle-de-estoque-de-livros-didaticos-metodologia-scrum
 
 * GitHub (versionamento)
 Link: https://github.com/Furtunato/senaistock-api
