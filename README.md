@@ -1,75 +1,81 @@
-## 📚 Controle de Estoque de Livros Didáticos – SENAI
+##📚 SenaiStock - API de Controle de Estoque
+Sobre o Projeto
+API RESTful desenvolvida em Laravel para controle de estoque de livros didáticos do SENAI. O sistema gerencia entradas, saídas e alertas de baixo estoque, garantindo saldo sempre atualizado.
 
-Este projeto consiste no desenvolvimento do **Back-End do SenaiStock**, uma API RESTful criada para controlar o estoque de livros didáticos do SENAI.
+🛠 Tecnologias Utilizadas
+Back-End: Laravel (PHP)
 
-### 🎯 Objetivo
+Banco de Dados: MySQL com Eloquent ORM
 
-Garantir o controle e manter o saldo de livros sempre atualizado no estoque, evitando falhas no controle de saídas, ruptura de estoque e atrasos na distribuição para as turmas.
+API: RESTful com respostas JSON
 
-O sistema registra:
+Testes: Insomnia/Postman
 
-* 📥 Entradas de livros (abastecimento)
-* 📤 Saídas de livros (retiradas para turmas)
-* ⚠️ Alertas de baixo estoque
-* 📊 Histórico completo de movimentações
-
----
-
-## 🛠 Tecnologias Utilizadas
-
-* **Laravel (PHP)** – Back-End
-* **MySQL** – Banco de dados relacional
-* **Eloquent ORM**
-* API RESTful com respostas em JSON
-* Testes via Insomnia/Postman
-* Versionamento com Git e GitHub
+Versionamento: Git e GitHub
 
 ---
 
-## ⚙️ Principais Funcionalidades
+##⚙️ Principais Funcionalidades
+✅ Autenticação - Login/logout com token
 
-* 🔐 Autenticação com token (login/logout)
-* 📚 Cadastro e listagem de livros (ISBN único)
-* ➕ Registro de entrada no estoque
-* ➖ Registro de saída com validação de saldo
-* 🚫 Bloqueio de estoque negativo
-* 📉 Monitoramento de livros abaixo do nível mínimo
-* 🕓 Histórico completo de movimentações com filtros
+✅ Cadastro de Livros - Título, ISBN, matéria (ISBN único)
 
----
+✅ Listagem - Livros com saldo atual e filtros
 
-## 📌 Regras Importantes
+✅ Entrada - Registrar abastecimento
 
-* Estoque nunca pode ficar negativo.
-* ISBN não pode ser duplicado.
-* Toda movimentação registra usuário e data.
-* Operações críticas são executadas com transação para garantir consistência.
+✅ Saída - Registrar retirada com validação de saldo
 
+✅ Consulta - Saldo por livro
+
+✅ Alertas - Livros abaixo do nível mínimo
+
+✅ Histórico - Movimentações com filtros
 
 ---
 
-## 🚀 Metodologia
+##📌 Regras de Negócio
+Estoque não pode ficar negativo
 
-O projeto foi desenvolvido utilizando **Scrum**, dividido em 6 Sprints, contemplando:
+ISBN deve ser único no cadastro
 
-* Levantamento de requisitos
-* Modelagem UML e Banco de Dados
-* Implementação da API
-* Testes e validações
-* Implantação
-* Apresentação final
+Quantidade sempre positiva
 
-Ferramentas utilizadas:
+Toda movimentação registra usuário e data
 
-* Trello (gestão das Sprints)
-Link: https://trello.com/invite/b/699f268b07de738132c049e8/ATTI29d0a4c4c35580343d8fadd22690eaa70C116F6A/controle-de-estoque-de-livros-didaticos-metodologia-scrum
+Operações em transação para consistência
 
-* GitHub (versionamento)
-Link: https://github.com/Furtunato/senaistock-api
+---
 
-* Figma (prototipação)
-Link: https://www.figma.com/design/9p1XpNNuL7FRum50qBvw4D/Sem-t%C3%ADtulo?node-id=0-1&p=f
+##🔗 Links do Projeto
+**Código:** [GitHub](https://github.com/Furtunato/senaistock-api)
 
+**Gestão:** [Trello](https://trello.com/invite/b/699f268b07de738132c049e8/ATTI29d0a4c4c35580343d8fadd22690eaa70C116F6A)
 
-Este sistema visa modernizar o controle de estoque do SENAI, trazendo mais organização, segurança e confiabilidade na gestão dos livros didáticos.
+**Prototipagem:** [Figma](https://www.figma.com/design/9p1XpNNuL7FRum50qBvw4D)
 
+---
+
+##📊 Metodologia
+Desenvolvido em 6 Sprints utilizando Scrum:
+
+Levantamento de requisitos e modelagem
+
+Implementação da API
+
+Funcionalidades de estoque
+
+Alertas e históricos
+
+Testes e validações
+
+Implantação
+
+---
+
+##👥 Equipe de Desenvolvimento
+Diogo Scherrer
+
+Gabriel Furtunato
+
+Gabriel Xavier
