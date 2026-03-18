@@ -4,7 +4,7 @@ Este projeto consiste no desenvolvimento do **Back-End do SenaiStock**, uma API 
 
 ### 🎯 Objetivo
 
-Garantir o controle e garantir que o saldo de livros esteja sempre atualizado, evitando falhas no controle de saídas, ruptura de estoque e atrasos na distribuição para as turmas.
+Garantir o controle e manter o saldo de livros sempre atualizado no estoque, evitando falhas no controle de saídas, ruptura de estoque e atrasos na distribuição para as turmas.
 
 O sistema registra:
 
