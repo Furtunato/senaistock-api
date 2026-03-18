@@ -1,4 +1,4 @@
-##📚 SenaiStock - API de Controle de Estoque
+## 📚 SenaiStock - API de Controle de Estoque
 Sobre o Projeto
 API RESTful desenvolvida em Laravel para controle de estoque de livros didáticos do SENAI. O sistema gerencia entradas, saídas e alertas de baixo estoque, garantindo saldo sempre atualizado.
 
@@ -15,7 +15,7 @@ Versionamento: Git e GitHub
 
 ---
 
-##⚙️ Principais Funcionalidades
+## ⚙️ Principais Funcionalidades
 ✅ Autenticação - Login/logout com token
 
 ✅ Cadastro de Livros - Título, ISBN, matéria (ISBN único)
@@ -34,7 +34,7 @@ Versionamento: Git e GitHub
 
 ---
 
-##📌 Regras de Negócio
+## 📌 Regras de Negócio
 Estoque não pode ficar negativo
 
 ISBN deve ser único no cadastro
@@ -47,7 +47,7 @@ Operações em transação para consistência
 
 ---
 
-##🔗 Links do Projeto
+## 🔗 Links do Projeto
 **Código:** [GitHub](https://github.com/Furtunato/senaistock-api)
 
 **Gestão:** [Trello](https://trello.com/invite/b/699f268b07de738132c049e8/ATTI29d0a4c4c35580343d8fadd22690eaa70C116F6A)
@@ -56,7 +56,7 @@ Operações em transação para consistência
 
 ---
 
-##📊 Metodologia
+## 📊 Metodologia
 Desenvolvido em 6 Sprints utilizando Scrum:
 
 Levantamento de requisitos e modelagem
@@ -73,7 +73,7 @@ Implantação
 
 ---
 
-##👥 Equipe de Desenvolvimento
+## 👥 Equipe de Desenvolvimento
 Diogo Scherrer
 
 Gabriel Furtunato
