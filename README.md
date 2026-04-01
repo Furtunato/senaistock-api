@@ -15,38 +15,6 @@ Versionamento: Git e GitHub
 
 ---
 
-## ⚙️ Principais Funcionalidades
-✅ Autenticação - Login/logout com token
-
-✅ Cadastro de Livros - Título, ISBN, matéria (ISBN único)
-
-✅ Listagem - Livros com saldo atual e filtros
-
-✅ Entrada - Registrar abastecimento
-
-✅ Saída - Registrar retirada com validação de saldo
-
-✅ Consulta - Saldo por livro
-
-✅ Alertas - Livros abaixo do nível mínimo
-
-✅ Histórico - Movimentações com filtros
-
----
-
-## 📌 Regras de Negócio
-Estoque não pode ficar negativo
-
-ISBN deve ser único no cadastro
-
-Quantidade sempre positiva
-
-Toda movimentação registra usuário e data
-
-Operações em transação para consistência
-
----
-
 ## 🔗 Links do Projeto
 **Código:** [GitHub](https://github.com/Furtunato/senaistock-api)
 
