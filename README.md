@@ -2,6 +2,15 @@
 Sobre o Projeto
 API RESTful desenvolvida em Laravel para controle de estoque de livros didáticos do SENAI. O sistema gerencia entradas, saídas e alertas de baixo estoque, garantindo saldo sempre atualizado.
 
+Objetivo do Projeto
+O Senai envia periodicamente grandes remessas de livros para as unidades 
+de ensino. Esses livros ficam armazenados no almoxarifado e são retirados pelos 
+instrutores para serem distribuídos em sala de aula conforme a necessidade. O 
+problema atual é a falta de controle sobre o saldo remanescente. O almoxarifado 
+sabe quantos livros chegaram, mas perde o controle de quantos saíram. 
+Frequentemente, descobre-se que o estoque de um título importante zerou apenas 
+no momento em que uma turma precisa dele, gerando atrasos no aprendizado.
+
 🛠 Tecnologias Utilizadas
 Back-End: Laravel (PHP)
 
