@@ -24,8 +24,6 @@ Versionamento: Git e GitHub
 ---
 
 ## 🔗 Links do Projeto
-**Código:** [GitHub](https://github.com/Furtunato/senaistock-api)
-
 **Gestão:** [Trello](https://trello.com/invite/b/699f268b07de738132c049e8/ATTI29d0a4c4c35580343d8fadd22690eaa70C116F6A)
 
 **Prototipagem:** [Figma](https://www.figma.com/design/9p1XpNNuL7FRum50qBvw4D)
